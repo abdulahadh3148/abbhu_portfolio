@@ -249,3 +249,52 @@ copyButton.addEventListener("click", async () => {
     copyButton.disabled = false;
   }
 });
+
+/* Welcome Intro Animation */
+
+const introOverlay = document.getElementById("intro-overlay");
+
+if (introOverlay) {
+  const hasSeenIntro = sessionStorage.getItem("hasSeenIntro");
+  const reducedMotionIntro = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  function removeIntro() {
+    introOverlay.classList.add("is-hidden");
+    sessionStorage.setItem("hasSeenIntro", "true");
+    
+    // Allow animation to finish before removing from DOM
+    setTimeout(() => {
+      introOverlay.remove();
+    }, 600);
+  }
+
+  if (hasSeenIntro || reducedMotionIntro.matches) {
+    // Skip intro if seen or reduced motion is enabled
+    introOverlay.remove();
+  } else {
+    // Prevent scrolling while intro is visible
+    document.body.style.overflow = "hidden";
+    
+    const finishIntro = () => {
+      document.body.style.overflow = "";
+      removeIntro();
+    };
+
+    // Remove intro after 2 seconds
+    const introTimer = setTimeout(finishIntro, 2000);
+
+    // Skip on click
+    introOverlay.addEventListener("click", () => {
+      clearTimeout(introTimer);
+      finishIntro();
+    });
+
+    // Skip on Escape key
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && document.body.contains(introOverlay)) {
+        clearTimeout(introTimer);
+        finishIntro();
+      }
+    });
+  }
+}
