@@ -209,46 +209,6 @@ reducedMotion.addEventListener("change", (event) => {
   if (event.matches) showAllContent();
 });
 
-/* Copy email: announce success only after a successful clipboard write. */
-
-const copyButton = document.getElementById("copy-email");
-const copyStatus = document.getElementById("copy-status");
-const emailLink = document.getElementById("email-address");
-const email = emailLink.textContent.trim();
-
-copyButton.hidden = false;
-
-function selectEmailForManualCopy() {
-  const selection = window.getSelection();
-
-  if (!selection) return;
-
-  const range = document.createRange();
-  range.selectNodeContents(emailLink);
-  selection.removeAllRanges();
-  selection.addRange(range);
-}
-
-copyButton.addEventListener("click", async () => {
-  copyButton.disabled = true;
-  copyStatus.textContent = "";
-
-  try {
-    if (!window.isSecureContext || !navigator.clipboard?.writeText) {
-      throw new Error("Clipboard is unavailable.");
-    }
-
-    await navigator.clipboard.writeText(email);
-    copyStatus.textContent = "Email address copied.";
-  } catch {
-    selectEmailForManualCopy();
-    copyStatus.textContent =
-      `Automatic copying is unavailable. Copy ${email} manually: ` +
-      "press Ctrl+C / Command+C, or touch and hold the email address.";
-  } finally {
-    copyButton.disabled = false;
-  }
-});
 
 /* Welcome Intro Animation */
 
@@ -298,3 +258,6 @@ if (introOverlay) {
     });
   }
 }
+
+/* Initialize Lucide Icons */
+lucide.createIcons();

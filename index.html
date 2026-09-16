@@ -1,506 +1,479 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0B0F17">
-  <meta
-    name="description"
-    content="Abdul Ahadh — Intern Software Engineer building thoughtful web and desktop applications with Java, React, PHP, and database technologies."
-  >
-  <title>Abdul Ahadh | Intern Software Engineer</title>
 
-  <link
-    rel="icon"
-    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B0F17'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial' font-size='27' font-weight='bold' fill='%235EEAD4'%3EAA%3C/text%3E%3C/svg%3E"
-  >
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0B0F17">
+    <meta name="description"
+        content="Abdul Ahadh — Intern Software Engineer building thoughtful web and desktop applications with Java, React, PHP, and database technologies.">
+    <title>Abdul Ahadh | Intern Software Engineer</title>
+
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230B0F17'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial' font-size='27' font-weight='bold' fill='%235EEAD4'%3EAA%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-  <div id="intro-overlay" class="intro-overlay">
-    <div class="intro-content">
-      <h1 class="intro-name">ABDUL AHADH</h1>
-      <p class="intro-text">Welcome to my portfolio.</p>
-      <div class="intro-progress">
-        <div class="intro-progress-bar"></div>
-      </div>
+    <div id="intro-overlay" class="intro-overlay">
+        <div class="intro-content">
+            <h1 class="intro-name">ABDUL AHADH</h1>
+            <p class="intro-text">Welcome to my portfolio.</p>
+            <div class="intro-progress">
+                <div class="intro-progress-bar"></div>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#home" aria-label="Abdul Ahadh — Home">
-        <span class="brand-mark" aria-hidden="true">AA</span>
-        <span>Abdul Ahadh<span class="accent">.</span></span>
-      </a>
-
-      <button
-        class="menu-toggle"
-        type="button"
-        aria-expanded="false"
-        aria-controls="main-nav"
-        aria-label="Open navigation menu"
-        hidden
-      >
-        <svg width="24" height="24" viewBox="0 0 24 24"
-             fill="none" stroke="currentColor" stroke-width="1.7"
-             aria-hidden="true">
-          <path d="M4 7h16M4 12h16M4 17h16"/>
-        </svg>
-      </button>
-
-      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
-        <a href="#home" aria-current="location">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" tabindex="-1">
-    <section id="home" class="hero section">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <span class="availability">Seeking internship opportunities</span>
-
-          <p class="intro">Hello, I’m</p>
-          <h1>Abdul <span>Ahadh</span></h1>
-          <p class="role">Intern Software Engineer</p>
-
-          <h2 class="hero-headline">
-            Building thoughtful web and desktop applications.
-          </h2>
-
-          <p class="hero-description">
-            I work with Java, databases, and web technologies to turn
-            practical ideas into clear, usable software.
-          </p>
-
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">
-              View Projects <span aria-hidden="true">↗</span>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home" aria-label="Abdul Ahadh — Home">
+                <span class="brand-mark" aria-hidden="true">AA</span>
+                <span>Abdul Ahadh<span class="accent">.</span></span>
             </a>
-            <a class="button button-secondary" href="#contact">Contact Me</a>
-          </div>
 
-          <a class="cv-link" href="assets/Abdul_Ahadh_CV.pdf" download>
-            <svg width="18" height="18" viewBox="0 0 24 24"
-                 fill="none" stroke="currentColor" stroke-width="1.7"
-                 aria-hidden="true">
-              <path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/>
-            </svg>
-            Download CV
-          </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"
+                aria-label="Open navigation menu" hidden>
+                <i data-lucide="menu"></i>
+            </button>
+
+            <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+                <a href="#home" aria-current="location">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
+    </header>
 
-        <aside class="identity-card" aria-label="Profile at a glance">
-          <div class="identity-top">
-            <span class="eyebrow">Developer profile</span>
-            <span class="code-symbol" aria-hidden="true">&lt;/&gt;</span>
-          </div>
+    <main id="main" tabindex="-1">
+        <section id="home" class="hero section">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="availability">Seeking internship opportunities</span>
 
-          <div class="profile-image-container" aria-hidden="true">
-            <img src="assets/abbhu.png" alt="Abdul Ahadh" class="profile-image">
-          </div>
+                    <p class="intro">Hello, I’m</p>
+                    <h1>Abdul <span>Ahadh</span></h1>
+                    <p class="role">Intern Software Engineer</p>
 
-          <div class="identity-name">
-            <h2>Abdul Ahadh</h2>
-            <p>Software Engineering Undergraduate</p>
-          </div>
+                    <h2 class="hero-headline">
+                        Building thoughtful web and desktop applications.
+                    </h2>
 
-          <div class="identity-detail">
-            <span>Focus</span>
-            <strong>Web &amp; desktop development</strong>
-          </div>
+                    <p class="hero-description">
+                        I work with Java, databases, and web technologies to turn
+                        practical ideas into clear, usable software.
+                    </p>
 
-          <div class="tags" aria-label="Selected technologies">
-            <span>Java</span>
-            <span>React</span>
-            <span>MySQL</span>
-          </div>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">
+                            View Projects <i data-lucide="arrow-up-right" class="icon-sm"></i>
+                        </a>
+                        <a class="button button-secondary button-icon" href="assets/Abdul_Ahadh_CV.pdf" download>
+                            <i data-lucide="download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
 
-          <div class="identity-location">
-            <svg width="17" height="17" viewBox="0 0 24 24"
-                 fill="none" stroke="currentColor" stroke-width="1.7"
-                 aria-hidden="true">
-              <path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/>
-              <circle cx="12" cy="10" r="2"/>
-            </svg>
-            Nawalapitiya, Kandy
-          </div>
-        </aside>
-      </div>
+                <aside class="identity-card" aria-label="Profile at a glance">
+                    <div class="identity-top">
+                        <span class="eyebrow">Developer profile</span>
+                        <span class="code-symbol" aria-hidden="true">&lt;/&gt;</span>
+                    </div>
 
-      <div class="container hero-bottom">
-        <span>Thoughtful interfaces. Structured code.</span>
-        <a href="#about">Get to know me <span aria-hidden="true">↓</span></a>
-      </div>
-    </section>
+                    <div class="profile-image-container" aria-hidden="true">
+                        <img src="assets/abbhu_final.jpg" alt="Abdul Ahadh" class="profile-image">
+                    </div>
 
-    <section id="about" class="section">
-      <div class="container about-layout">
-        
-        <div class="about-image-container reveal">
-          <img src="assets/About.png" alt="Abdul Ahadh" class="about-image">
+                    <div class="identity-name">
+                        <h2>Abdul Ahadh</h2>
+                        <p>Software Engineering Undergraduate</p>
+                    </div>
+
+                    <div class="identity-detail">
+                        <span>Focus</span>
+                        <strong>Web &amp; desktop development</strong>
+                    </div>
+
+                    <div class="tags" aria-label="Selected technologies">
+                        <span>Java</span>
+                        <span>React</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <div class="identity-location">
+                        <i data-lucide="map-pin" class="icon-sm"></i>
+                        Nawalapitiya, Kandy
+                    </div>
+                </aside>
+            </div>
+
+            <div class="container hero-bottom">
+                <span>Thoughtful interfaces. Structured code.</span>
+                <a href="#about">Get to know me <i data-lucide="arrow-down" class="icon-sm"></i></a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container about-layout">
+
+                <div class="about-image-container reveal">
+                    <img src="assets/About.png" alt="Abdul Ahadh" class="about-image">
+                </div>
+
+                <div class="about-content">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">About</p>
+                        <h2>Curiosity meets practical development.</h2>
+                    </div>
+
+                    <div class="about-copy reveal">
+                        <p>
+                            I’m an IT undergraduate with hands-on experience in Java, MySQL, and
+                            desktop application development using Java Swing.
+                        </p>
+                        <p>
+                            I enjoy building usable interfaces and database-driven applications,
+                            with broader working knowledge of React, PHP, C#, Python, and Kotlin.
+                        </p>
+                    </div>
+
+                    <div class="info-panel reveal">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i data-lucide="map-pin"></i>
+                            </div>
+                            <div>
+                                <span class="info-label">Based in</span>
+                                <strong class="info-value">Nawalapitiya, Kandy</strong>
+                            </div>
+                        </div>
+                        <div class="info-divider"></div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i data-lucide="briefcase"></i>
+                            </div>
+                            <div>
+                                <span class="info-label">Looking for</span>
+                                <strong class="info-value">Software engineering internship</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="languages reveal">
+                        <p class="languages-title">Spoken languages</p>
+                        <div class="language-tags">
+                            <span class="lang-tag">
+                                <i data-lucide="message-circle" class="icon-sm"></i> English
+                            </span>
+                            <span class="lang-tag">
+                                <i data-lucide="message-circle" class="icon-sm"></i> සිංහල
+                            </span>
+                            <span class="lang-tag">
+                                <i data-lucide="message-circle" class="icon-sm"></i> தமிழ்
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills" class="section section-tinted">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Skills</p>
+                    <h2>The tools behind my work.</h2>
+                    <p>A foundation in programming, interfaces, and data.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card reveal">
+                        <span class="skill-number" aria-hidden="true">01</span>
+                        <h3>Programming</h3>
+                        <div class="tags">
+                            <span>Java</span><span>PHP</span>
+                            <span>C#</span><span>Python</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-number" aria-hidden="true">02</span>
+                        <h3>Web development</h3>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span>
+                            <span>JavaScript</span><span>React</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-number" aria-hidden="true">03</span>
+                        <h3>Desktop UI</h3>
+                        <div class="tags"><span>Java Swing</span></div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-number" aria-hidden="true">04</span>
+                        <h3>Databases</h3>
+                        <div class="tags">
+                            <span>MySQL</span><span>SQLite</span><span>Firebase</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-number" aria-hidden="true">05</span>
+                        <h3>Tools &amp; working knowledge</h3>
+                        <div class="tags"><span>Git</span><span>GitHub</span></div>
+                        <p class="skill-note">Additional working knowledge: Kotlin</p>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-number" aria-hidden="true">06</span>
+                        <h3>Core concepts</h3>
+                        <div class="tags">
+                            <span>Object-Oriented Programming</span>
+                            <span>Database Systems</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="soft-skills reveal">
+                    <h3>How I work</h3>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Communication</li>
+                        <li>Problem-solving</li>
+                        <li>Adaptability</li>
+                        <li>Work Ethic</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Selected projects</p>
+                    <h2>Ideas put into practice.</h2>
+                    <p>Web applications built around everyday operational needs.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card project-featured reveal">
+                        <div class="project-image-wrapper">
+                            <img src="assets/1st%20pr.png" alt="Eranga Driving School platform interface"
+                                class="project-screenshot">
+                        </div>
+
+                        <div class="project-body">
+                            <p class="eyebrow">Featured project</p>
+                            <h3>Eranga Driving School Management Platform</h3>
+                            <p>
+                                A full-stack platform bringing student registration,
+                                instructor scheduling, practice bookings, and payment
+                                tracking into one organized experience.
+                            </p>
+                            <ul class="project-highlights">
+                                <li>Student registration and practice bookings</li>
+                                <li>Instructor scheduling and payment tracking</li>
+                                <li>Mock tests, notifications, and feedback management</li>
+                            </ul>
+                            <div class="tags">
+                                <span>React</span><span>Node.js</span>
+                                <span>Firebase</span><span>JavaScript</span>
+                            </div>
+                            <a class="project-link" data-link="drivingRepo" hidden>
+                                View source code <span aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-image-wrapper">
+                            <img src="assets/jamiul_azhar.png" alt="Al Azhar Management System interface"
+                                class="project-screenshot">
+                        </div>
+
+                        <div class="project-body">
+                            <span class="project-status">In Development</span>
+                            <h3>Al Azhar Jumma Masjid Management System</h3>
+                            <p>
+                                A mosque management system in development, designed to
+                                organize administrative records and simplify daily
+                                operational workflows through a user-friendly interface.
+                            </p>
+                            <div class="tags">
+                                <span>React</span><span>MySQL</span>
+                                <span>HTML</span><span>JavaScript</span>
+                            </div>
+                            <a class="project-link" data-link="mosqueRepo" hidden>
+                                View source code <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-image-wrapper">
+                            <img src="assets/sparkle_salon.png" alt="Salon Management System interface"
+                                class="project-screenshot">
+                        </div>
+
+                        <div class="project-body">
+                            <p class="eyebrow">Database-driven application</p>
+                            <h3>Salon Management System</h3>
+                            <p>
+                                A database-driven application developed to organize customer
+                                information and manage essential salon operations
+                                efficiently.
+                            </p>
+                            <div class="tags">
+                                <span>PHP</span><span>CSS</span><span>MySQL</span>
+                            </div>
+                            <a class="project-link" data-link="salonRepo" hidden>
+                                View source code <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section section-tinted">
+            <div class="container education-grid">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Education</p>
+                    <h2>A foundation for what’s next.</h2>
+                </div>
+
+                <ol class="timeline">
+                    <li class="reveal">
+                        <span class="timeline-date">2024–Present</span>
+                        <h3>Higher National Diploma in Software Engineering</h3>
+                        <p>SLIATE Kurunegala</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-panel reveal">
+                    <div>
+                        <p class="eyebrow">Get in touch</p>
+                        <h2>Let’s build something meaningful.</h2>
+                        <p class="contact-intro">
+                            Have an internship opportunity, an entry-level role, or a
+                            professional connection in mind? I’d be glad to hear from you.
+                        </p>
+                        <div class="social-links">
+                            <a href="https://github.com/abdulahadh3148" target="_blank" rel="noopener noreferrer">
+                                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> GitHub
+                            </a>
+                            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+                                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg> LinkedIn
+                            </a>
+                            <a href="mailto:abdulahadh9917973@gmail.com">
+                                <i data-lucide="mail" class="icon-sm"></i> Email
+                            </a>
+                            <a href="https://wa.me/94776550369" target="_blank" rel="noopener noreferrer">
+                                <i data-lucide="message-circle" class="icon-sm"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" action="https://formspree.io/f/mrbpzzko" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Opportunity / Project inquiry" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell me about the role or project..." rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-identity">
+                    <a class="footer-brand" href="#home">
+                        <span class="footer-monogram" aria-hidden="true">AA</span>
+                        <span class="footer-name">Abdul Ahadh<span class="accent">.</span></span>
+                    </a>
+                    <p class="footer-role">Intern Software Engineer</p>
+                    <p class="footer-intro">Building thoughtful web and desktop applications with a focus on usable
+                        interfaces and well-structured code.</p>
+                    <p class="footer-location">
+                        <i data-lucide="map-pin" class="icon-sm"></i>
+                        Nawalapitiya, Kandy
+                    </p>
+                </div>
+
+                <div class="footer-col footer-links">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <nav aria-label="Footer navigation">
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#education">Education</a>
+                    </nav>
+                </div>
+
+                <div class="footer-col footer-connect">
+                    <h3 class="footer-heading">Connect</h3>
+                    <div class="footer-social">
+                        <a href="https://github.com/abdulahadh3148" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="mailto:abdulahadh9917973@gmail.com" aria-label="Email">
+                            <i data-lucide="mail"></i>
+                        </a>
+                        <a href="https://wa.me/94776550369" target="_blank" rel="noopener noreferrer"
+                            aria-label="WhatsApp">
+                            <i data-lucide="message-circle"></i>
+                        </a>
+                    </div>
+                    <p class="footer-status">Seeking internship opportunities</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© <span id="year"></span> Abdul Ahadh. All rights reserved.</p>
+                <p>Designed &amp; built by Abdul Ahadh.</p>
+                <a class="back-top" href="#home">
+                    Back to top <i data-lucide="arrow-up" class="icon-sm"></i>
+                </a>
+            </div>
         </div>
-
-        <div class="about-content">
-          <div class="section-heading reveal">
-            <p class="eyebrow">About</p>
-            <h2>Curiosity meets practical development.</h2>
-          </div>
-
-          <div class="about-copy reveal">
-            <p>
-              I’m an IT undergraduate with hands-on experience in Java, MySQL, and
-              desktop application development using Java Swing.
-            </p>
-            <p>
-              I enjoy building usable interfaces and database-driven applications,
-              with broader working knowledge of React, PHP, C#, Python, and Kotlin.
-            </p>
-          </div>
-
-          <div class="info-panel reveal">
-            <div class="info-item">
-              <div class="info-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
-                  <path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/>
-                  <circle cx="12" cy="10" r="3"/>
-                </svg>
-              </div>
-              <div>
-                <span class="info-label">Based in</span>
-                <strong class="info-value">Nawalapitiya, Kandy</strong>
-              </div>
-            </div>
-            <div class="info-divider"></div>
-            <div class="info-item">
-              <div class="info-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
-                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
-                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
-                </svg>
-              </div>
-              <div>
-                <span class="info-label">Looking for</span>
-                <strong class="info-value">Software engineering internship</strong>
-              </div>
-            </div>
-          </div>
-
-          <div class="languages reveal">
-            <p class="languages-title">Spoken languages</p>
-            <div class="language-tags">
-              <span class="lang-tag">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> English
-              </span>
-              <span class="lang-tag">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> සිංහල
-              </span>
-              <span class="lang-tag">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> தமிழ்
-              </span>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id="skills" class="section section-tinted">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Skills</p>
-          <h2>The tools behind my work.</h2>
-          <p>A foundation in programming, interfaces, and data.</p>
-        </div>
-
-        <div class="skills-grid">
-          <article class="skill-card reveal">
-            <span class="skill-number" aria-hidden="true">01</span>
-            <h3>Programming</h3>
-            <div class="tags">
-              <span>Java</span><span>PHP</span>
-              <span>C#</span><span>Python</span>
-            </div>
-          </article>
-
-          <article class="skill-card reveal">
-            <span class="skill-number" aria-hidden="true">02</span>
-            <h3>Web development</h3>
-            <div class="tags">
-              <span>HTML</span><span>CSS</span>
-              <span>JavaScript</span><span>React</span>
-            </div>
-          </article>
-
-          <article class="skill-card reveal">
-            <span class="skill-number" aria-hidden="true">03</span>
-            <h3>Desktop UI</h3>
-            <div class="tags"><span>Java Swing</span></div>
-          </article>
-
-          <article class="skill-card reveal">
-            <span class="skill-number" aria-hidden="true">04</span>
-            <h3>Databases</h3>
-            <div class="tags">
-              <span>MySQL</span><span>SQLite</span><span>Firebase</span>
-            </div>
-          </article>
-
-          <article class="skill-card reveal">
-            <span class="skill-number" aria-hidden="true">05</span>
-            <h3>Tools &amp; working knowledge</h3>
-            <div class="tags"><span>Git</span><span>GitHub</span></div>
-            <p class="skill-note">Additional working knowledge: Kotlin</p>
-          </article>
-
-          <article class="skill-card reveal">
-            <span class="skill-number" aria-hidden="true">06</span>
-            <h3>Core concepts</h3>
-            <div class="tags">
-              <span>Object-Oriented Programming</span>
-              <span>Database Systems</span>
-            </div>
-          </article>
-        </div>
-
-        <div class="soft-skills reveal">
-          <h3>How I work</h3>
-          <ul>
-            <li>Teamwork</li>
-            <li>Communication</li>
-            <li>Problem-solving</li>
-            <li>Adaptability</li>
-            <li>Work Ethic</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Selected projects</p>
-          <h2>Ideas put into practice.</h2>
-          <p>Web applications built around everyday operational needs.</p>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card project-featured reveal">
-            <div class="project-image-wrapper">
-              <img src="assets/1st%20pr.png" alt="Eranga Driving School platform interface" class="project-screenshot">
-            </div>
-
-            <div class="project-body">
-              <p class="eyebrow">Featured project</p>
-              <h3>Eranga Driving School Management Platform</h3>
-              <p>
-                A full-stack platform bringing student registration,
-                instructor scheduling, practice bookings, and payment
-                tracking into one organized experience.
-              </p>
-              <ul class="project-highlights">
-                <li>Student registration and practice bookings</li>
-                <li>Instructor scheduling and payment tracking</li>
-                <li>Mock tests, notifications, and feedback management</li>
-              </ul>
-              <div class="tags">
-                <span>React</span><span>Node.js</span>
-                <span>Firebase</span><span>JavaScript</span>
-              </div>
-              <a class="project-link" data-link="drivingRepo" hidden>
-                View source code <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-image-wrapper">
-              <img src="assets/jamiul_azhar.png" alt="Al Azhar Management System interface" class="project-screenshot">
-            </div>
-
-            <div class="project-body">
-              <span class="project-status">In Development</span>
-              <h3>Al Azhar Jumma Masjid Management System</h3>
-              <p>
-                A mosque management system in development, designed to
-                organize administrative records and simplify daily
-                operational workflows through a user-friendly interface.
-              </p>
-              <div class="tags">
-                <span>React</span><span>MySQL</span>
-                <span>HTML</span><span>JavaScript</span>
-              </div>
-              <a class="project-link" data-link="mosqueRepo" hidden>
-                View source code <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-image-wrapper">
-              <img src="assets/sparkle_salon.png" alt="Salon Management System interface" class="project-screenshot">
-            </div>
-
-            <div class="project-body">
-              <p class="eyebrow">Database-driven application</p>
-              <h3>Salon Management System</h3>
-              <p>
-                A database-driven application developed to organize customer
-                information and manage essential salon operations
-                efficiently.
-              </p>
-              <div class="tags">
-                <span>PHP</span><span>CSS</span><span>MySQL</span>
-              </div>
-              <a class="project-link" data-link="salonRepo" hidden>
-                View source code <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="section section-tinted">
-      <div class="container education-grid">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Education</p>
-          <h2>A foundation for what’s next.</h2>
-        </div>
-
-        <ol class="timeline">
-          <li class="reveal">
-            <span class="timeline-date">2024–Present</span>
-            <h3>Higher National Diploma in Software Engineering</h3>
-            <p>SLIATE Kurunegala</p>
-          </li>
-          <li class="reveal">
-            <span class="timeline-date">2022/2023</span>
-            <h3>G.C.E. Advanced Level</h3>
-            <p>Al Minhaj National School, Hapugasthalawa</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <div class="contact-panel reveal">
-          <div>
-            <p class="eyebrow">Get in touch</p>
-            <h2>Let’s build something meaningful.</h2>
-            <p class="contact-intro">
-              Have an internship opportunity, an entry-level role, or a
-              professional connection in mind? I’d be glad to hear from you.
-            </p>
-            <div class="social-links">
-              <a href="https://github.com/abdulahadh3148" target="_blank" rel="noopener noreferrer">
-                GitHub <span aria-hidden="true">↗</span>
-              </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
-                LinkedIn <span aria-hidden="true">↗</span>
-              </a>
-              <a href="mailto:abdulahadh9917973@gmail.com">
-                Email <span aria-hidden="true">↗</span>
-              </a>
-              <a href="https://wa.me/94776550369" target="_blank" rel="noopener noreferrer">
-                WhatsApp <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </div>
-
-          <div class="contact-details">
-            <div class="contact-item">
-              <span class="contact-label">Email</span>
-              <a id="email-address" href="mailto:abdulahadh9917973@gmail.com">
-                abdulahadh9917973@gmail.com
-              </a>
-              <button id="copy-email" class="copy-button" type="button" hidden>
-                Copy Email
-              </button>
-              <p id="copy-status" class="copy-status"
-                 role="status" aria-live="polite"></p>
-            </div>
-
-            <div class="contact-item">
-              <span class="contact-label">Phone</span>
-              <a href="tel:+94776550369">077 655 0369</a>
-            </div>
-
-            <div class="contact-item">
-              <span class="contact-label">Location</span>
-              <p>Nawalapitiya, Kandy</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col footer-identity">
-          <a class="footer-brand" href="#home">
-            <span class="footer-monogram" aria-hidden="true">AA</span>
-            <span class="footer-name">Abdul Ahadh<span class="accent">.</span></span>
-          </a>
-          <p class="footer-role">Intern Software Engineer</p>
-          <p class="footer-intro">Building thoughtful web and desktop applications with a focus on usable interfaces and well-structured code.</p>
-          <p class="footer-location">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            Nawalapitiya, Kandy
-          </p>
-        </div>
-
-        <div class="footer-col footer-links">
-          <h3 class="footer-heading">Quick Links</h3>
-          <nav aria-label="Footer navigation">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-          </nav>
-        </div>
-
-        <div class="footer-col footer-connect">
-          <h3 class="footer-heading">Connect</h3>
-          <div class="footer-social">
-            <a href="https://github.com/abdulahadh3148" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-            </a>
-            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-            </a>
-            <a href="mailto:abdulahadh9917973@gmail.com" aria-label="Email">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-            </a>
-            <a href="https://wa.me/94776550369" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-            </a>
-          </div>
-          <p class="footer-status">Seeking internship opportunities</p>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>© <span id="year"></span> Abdul Ahadh. All rights reserved.</p>
-        <p>Designed &amp; built by Abdul Ahadh.</p>
-        <a class="back-top" href="#home">
-          Back to top <span aria-hidden="true">↑</span>
-        </a>
-      </div>
-    </div>
-  </footer>
+    </footer>
 </body>
+
 </html>
